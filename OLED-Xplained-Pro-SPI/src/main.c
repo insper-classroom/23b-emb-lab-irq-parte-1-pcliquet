@@ -59,7 +59,6 @@ volatile char but_flag;
 volatile char but2_flag;
 volatile char but3_flag;
 
-int tempo =0;
 char texto[20];
 
 void io_init(void);
@@ -172,9 +171,8 @@ int main (void){
 	sysclk_init();
 	delay_init();
 	
-	tempo = 200;
-	
-	
+
+    int tempo =200;
 
 	// Init OLED
 	gfx_mono_ssd1306_init();

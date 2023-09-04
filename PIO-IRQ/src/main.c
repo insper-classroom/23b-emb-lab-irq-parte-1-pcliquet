@@ -59,7 +59,9 @@ volatile char but_flag;
 volatile char but2_flag;
 volatile char but3_flag;
 
-int tempo =0;
+
+
+
 char texto[20];
 
 void io_init(void);
@@ -186,7 +188,7 @@ int main (void){
 	
 	
 	
-	
+	int tempo =200;
 
 	/* Insert application code here, after the board has been initialized. */
 	while(1) {
